@@ -1,0 +1,27 @@
+.Main {
+  height: 100vh;
+  background: url("../../assets/main_back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  .wrapper {
+    background: #0009389c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .content {
+      width: 700px;
+      margin: 0 auto;
+      text-align: center;
+      h1 {
+        font-size: 40px;
+        color: #fff;
+        margin-bottom: 50px;
+        font-weight: 800;
+      }
+      h3 {
+        color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+.gen_title {
+  border-left: 5px solid #000938;
+  margin: 20px 0;
+  h1 {
+    padding-left: 80px;
+    color: #000938;
+    font-weight: 600;
+  }
+}
+.Opportunites {
+  padding: 50px 0;
+  .change_section {
+    padding: 15px 80px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    button {
+      width: 90%;
+    }
+    .change_section_item1 {
+      button {
+        background: #ffffff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 50px 0px 0px 50px;
+        padding: 15px 10px;
+        color: #000938;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        border: 0px;
+      }
+    }
+    .change_section_item2 {
+      button {
+        background: #ffffff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 0px;
+        padding: 15px 10px;
+        color: #000938;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        border: 0px;
+      }
+    }
+    .change_section_item3 {
+      button {
+        background: #ffffff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 0px;
+        padding: 15px 10px;
+        color: #000938;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        border: 0px;
+      }
+    }
+    .change_section_item4 {
+      button {
+        background: #ffffff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 0 50px 50px 0;
+        padding: 15px 10px;
+        color: #000938;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        border: 0px;
+      }
+    }
+    .active {
+      button {
+        background-color: #000938;
+        color: #fff;
+      }
+    }
+    .notActive {
+      background: #fff;
+    }
+
+    .active_changer {
+      button {
+        background: #000938;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        padding: 15px 10px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+  }
+  .active {
+    display: grid !important;
+  }
+  .null {
+    display: none;
+  }
+
+  .wrapper {
+    display: none;
+    grid-template-columns: 33% 33% 33%;
+    padding: 0 80px;
+    .col {
+      cursor: pointer;
+      margin: 40px 0;
+      width: 100%;
+      position: relative;
+      .innerW {
+        width: 90%;
+        border: 2px solid #000938;
+        padding: 20px;
+        .name_title {
+          position: absolute;
+          background-color: #fff;
+          top: -15px;
+        }
+        .main {
+          text-align: center;
+          &:hover {
+            img {
+              transform: scale(1.1);
+            }
+          }
+          img {
+            transition: 0.3s ease-in-out;
+            width: 50px;
+            height: 50px;
+            margin: 10px 0;
+          }
+        }
+      }
+    }
+  }
+  // .noactive {
+  //   display: grid;
+  // }
+}

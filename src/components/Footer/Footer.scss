@@ -1,0 +1,78 @@
+.Footer{
+    padding: 40px 0;
+    background-color: #000938;
+    .main_wrapper{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        color: #fff !important;
+        .wrapper{
+            margin: 25px 0;
+            display: grid;
+            grid-template-columns: 20% 80%;
+            h3{
+                margin-bottom: 10px;
+                width: 100%;
+            }
+            p{
+                font-size: 14px;
+            }
+        }
+        .quick_links{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            ul{
+                padding-left: 0;
+                li{
+                    transition: 0.2s ease-in-out;
+                    &:hover{
+                        padding-left: 10px;
+                    }
+                    list-style: none;
+                    padding: 20px 0;
+                    font-size: 17px;
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .socials{
+            .top{
+                ul{
+                    display: flex;
+                    padding-left: 0;
+                    li{
+                        &:hover{
+                            transform: translateY(-10px);
+                        }
+                        padding: 0 15px ;
+                        list-style: none;
+                        font-size: 40px;
+                        transition: 0.3s ease   ;
+                        a{
+                            color: #fff;
+    
+                        }
+                    }
+                }
+            }
+            p{
+                
+                margin: 20px 0;
+                margin-left: 15px;
+            }
+            b{
+                margin-top: 10px;
+                margin-left: 15px;
+                a{
+                    margin-left: 5px;
+                    color: #fff;
+                    
+                }
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,60 @@
+.Ch_stats {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    .leftbox {
+      padding: 20px 0;
+      .title {
+        margin: 2 0px 0;
+        font-weight: 700;
+      }
+      .infos {
+        ul {
+          padding-left: 0;
+          li {
+            padding: 15px 0;
+            max-width: 650px;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            span {
+              width: 20px;
+              transform: rotate(-45deg);
+              height: 17px;
+              background-color: #000938;
+            }
+            h4 {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+    }
+    .rightbox {
+      border-radius: 0% 0% 22% 0% / 10% 10% 24% 10%;
+      width: 100%;
+      background: url("../../assets/stats_back.png");
+      .wrapper {
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(
+          0deg,
+          rgba(0, 9, 56, 0.8),
+          rgba(0, 9, 56, 0.8)
+        );
+        .content {
+          text-align: center;
+          h1 {
+            margin: 30px 0;
+            color: #fff;
+            font-size: 40px;
+          }
+          img {
+            margin: 0 auto;
+            width: 300px;
+          }
+        }
+      }
+    }
+  }
+}
